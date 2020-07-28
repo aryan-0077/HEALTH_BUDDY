@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.MainActivity">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_light_background">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@android:color/white"
+            />
+    </com.google.android.material.appbar.AppBarLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:clipChildren="false"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:clipToPadding="false"
+            android:clipChildren="false"
+            android:shadowColor="#d3d3d3">
+            <androidx.cardview.widget.CardView
+
+                android:id="@+id/dentist"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardElevation="7dp"
+                app:cardUseCompatPadding="true"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="90dp"
+                app:cardCornerRadius="14dp"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                >
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:scaleType="centerCrop"
+                    android:padding="0dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="Dentist"
+                    />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="160dp"
+                android:layout_toRightOf="@+id/dentist"
+                android:id="@+id/opthal"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardElevation="7dp"
+                app:cardUseCompatPadding="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="90dp"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:layout_height="160dp"
+                app:cardCornerRadius="14dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:padding="0dp"
+                    android:textSize="15sp"
+                    android:text="Opthalmologist"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal|center_vertical"
+                    />
+
+
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:clipToPadding="false"
+            android:clipChildren="false"
+            android:shadowColor="#d3d3d3">
+            <androidx.cardview.widget.CardView
+
+                android:id="@+id/cardio"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardElevation="7dp"
+                app:cardUseCompatPadding="true"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="14dp"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                >
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:scaleType="centerCrop"
+                    android:padding="0dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="Cardiologist"
+                    />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="160dp"
+                android:layout_toRightOf="@+id/cardio"
+                android:id="@+id/neuro"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardElevation="7dp"
+                app:cardUseCompatPadding="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:layout_height="160dp"
+                app:cardCornerRadius="14dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:padding="0dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="Neurologist"
+                    />
+
+
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:clipToPadding="false"
+            android:clipChildren="false"
+            android:shadowColor="#d3d3d3">
+            <androidx.cardview.widget.CardView
+
+                android:id="@+id/gastro"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardElevation="7dp"
+                app:cardUseCompatPadding="true"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="14dp"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                >
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:textSize="15sp"
+                    android:text="Gastroenterologist"
+                    android:scaleType="centerCrop"
+                    android:padding="0dp"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal|center_vertical"
+                    />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="160dp"
+                android:layout_toRightOf="@+id/gastro"
+                android:id="@+id/pedia"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardElevation="7dp"
+                app:cardUseCompatPadding="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:layout_height="160dp"
+                app:cardCornerRadius="14dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:padding="0dp"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:text="Pediatricians"
+                    android:gravity="center_horizontal|center_vertical"
+                    />
+
+
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

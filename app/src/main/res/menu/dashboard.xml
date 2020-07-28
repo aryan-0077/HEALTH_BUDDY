@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/donateinfo"
+        android:title="@string/bloodinfo"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/devinfo"
+        android:title="@string/devinfo"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/home"
+        android:title="@string/home"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/userprofile"
+        android:title="@string/profile"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/user_achiev"
+        android:title="@string/achiev"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/blood_storage"
+        android:title="@string/fndBlood"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/nearby_hospital"
+        android:title="@string/nearH"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/logout"
+        android:title="@string/lgout"
+        app:showAsAction="never"/>
+</menu>

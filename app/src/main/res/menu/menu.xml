@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Welcome!">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item android:id="@+id/pedo"
+                    android:title="Pedometer"
+                    android:icon="@drawable/ic_directions_run_black_24dp"
+                    />
+                <item android:id="@+id/about"
+                    android:title="About us"
+                    android:icon="@drawable/ic_people_black_24dp"
+                    />
+                <item android:id="@+id/contact"
+                    android:title="Contact"
+                    android:icon="@drawable/ic_phone_black_24dp"
+                    />
+                <item android:id="@+id/feedback"
+                    android:title="Feedback"
+                    android:icon="@drawable/ic_feedback_black_24dp" />
+            </group>
+        </menu>
+    </item>
+
+
+
+</menu>
